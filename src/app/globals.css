@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.featureCards {
+    border-top: 2px solid white;
+    border-left: 2px solid white;
+    transition: transform 0.4s ease-in-out;
+}
+.donateSec{
+  width: 95%;
+  justify-content: center;
+  align-items: center;
+margin: auto;
+font-weight: 400;
+padding-left: 30px;
+padding-top: 10px;
+}
+
+.testomonialCard{
+  border-top: 2px solid white;
+  border-left: 2px solid white;
+}
+.footerSec{
+  border-top-left-radius: 53px ;
+  border-top-right-radius: 53px ;
+  width: 95%;
+  justify-content: center;
+  align-items: center;
+margin: auto;
+font-weight: 400;
+padding-left: 30px;
+padding-top: 10px;
+}
+
+.shadow-b-inner {
+  box-shadow: inset 0 -8px 8px -6px rgba(0, 0, 0, 0.2);
+}
+
+.btn-inner-shadow {
+  box-shadow: inset 0 -4px 6px -4px rgba(0, 0, 0, 0.3);
+}
+.featureCards:hover {
+    transform: scale(1.5);
+}
+
+.AboutCard{
+  border-left: 2px solid white;
+  border-top: 2px solid white;
+  
+}
